@@ -1,31 +1,25 @@
-English | [绠�浣撲腑鏂嘳(README-CN.md)
+简体中文 | [English](./README-EN.md)
 
-# Ant Chain CAS SDK for PHP
+<p align="center">
+<a href=" https://www.aliyun.com"><img src="https://aliyunsdk-pages.alicdn.com/icons/Aliyun.svg"></a>
+</p>
 
-## Installation
+<h1 align="center">Alibaba Cloud Cas SDK for PHP</h1>
 
-### Composer
+若已安装 [Alibaba Cloud SDK for PHP][sdk] 则无需安装本产品依赖包。本产品依赖包只是从 [Alibaba Cloud SDK for PHP][sdk] 中同步出来的一部分，其命名空间、用法与 [Alibaba Cloud SDK for PHP][sdk] 一致。
 
-```bash
-composer require antchain/cas
+如果您不在乎文件体积，建议您安装 [Alibaba Cloud SDK for PHP][sdk] 并经常更新，以便保持最新、最全的产品支持：
+```
+composer require alibabacloud/sdk
 ```
 
-## Issues
+也可仅安装本产品：
+> 本产品的版本始终和 [Alibaba Cloud SDK for PHP][sdk] 保持同步，以保证在不改变业务代码的情况下随时和 [Alibaba Cloud SDK for PHP][sdk] 相互切换，尽管本产品不同版本之间的代码可能没有变化。
+```
+composer require alibabacloud/cas
+```
 
-[Opening an Issue](https://github.com/alipay/antchain-openapi-prod-sdk/issues/new), Issues not conforming to the guidelines may be closed immediately.
+***
+更多 SDK 的使用请参考 [Alibaba Cloud SDK for PHP][sdk] 文档。
 
-## Usage
-
-[Quick Examples](https://github.com/alipay/antchain-openapi-prod-sdk/blob/master/docs/0-Examples-EN.md#quick-examples)
-
-## Changelog
-
-Detailed changes for each release are documented in the [release notes](./ChangeLog.txt).
-
-## References
-
-* [Latest Release](https://github.com/antchain-openapi-sdk-php)
-
-## License
-
-[Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+[sdk]: https://github.com/aliyun/openapi-sdk-php

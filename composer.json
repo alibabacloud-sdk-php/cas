@@ -1,32 +1,43 @@
 {
-  "name": "antchain/cas",
-  "description": "Ant Chain SDK Library for PHP",
-  "type": "library",
-  "license": "Apache-2.0",
-  "authors": [
-    {
-      "name": "Ant Chain SDK",
-      "email": "sdk-team@alibabacloud.com"
-    }
-  ],
-  "require": {
-    "php": ">5.5",
-    "antchain/antchain-util": "^0.1.1",
-    "alibabacloud/tea-utils": "^0.2.0",
-    "alibabacloud/tea-rpc-utils": "^0.2.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "AntChain\\CAS\\": "src"
-    }
-  },
-  "scripts": {
-    "fixer": "php-cs-fixer fix ./"
-  },
-  "config": {
-    "sort-packages": true,
-    "preferred-install": "dist",
-    "optimize-autoloader": true
-  },
-  "prefer-stable": true
+    "name": "alibabacloud/cas",
+    "homepage": "https://www.alibabacloud.com/",
+    "description": "Alibaba Cloud Cas SDK for PHP",
+    "keywords": [
+        "cas",
+        "sdk",
+        "cloud",
+        "aliyun",
+        "alibaba",
+        "library",
+        "alibabacloud"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "support": {
+        "source": "https://github.com/alibabacloud-sdk-php/cas",
+        "issues": "https://github.com/alibabacloud-sdk-php/cas/issues"
+    },
+    "authors": [
+        {
+            "name": "Alibaba Cloud SDK",
+            "email": "sdk-team@alibabacloud.com",
+            "homepage": "http://www.alibabacloud.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "alibabacloud/client": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlibabaCloud\\Cas\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
